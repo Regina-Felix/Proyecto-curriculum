@@ -1,32 +1,180 @@
-<>
-<!DOCTYPE html >
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>Mi pagina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Regina Félix</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            color: #2e3d49;
+        }
+
+        .header h2 {
+            font-size: 18px;
+            color: #5f5f5f;
+            margin-top: 5px;
+        }
+
+        .main-content {
+            display: flex;
+        }
+
+        .left-section {
+            width: 35%;
+            padding-right: 20px;
+        }
+
+        .right-section {
+            width: 65%;
+        }
+
+        .profile-img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #2e3d49;
+        }
+
+        .left-section p, .right-section p {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .right-section h3 {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #2e3d49;
+            font-weight: bold;
+        }
+
+        .right-section ul li {
+            margin-bottom: 8px;
+        }
+
+        .contact p, .left-section p, .right-section p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .contact p strong, .section-title {
+            font-size: 15px;
+        }
+    </style>
 </head>
 <body>
-    <h1> Mi primer titulo </h1>
-    <h2> Mi segundo titulo </h2>
-    <h3> Mi tercer titulo </h3>
+    <div class="container">
+        <div class="header">
+            <h1>Lorena Regina García Félix</h1>
+            <h2>Ingeniera en Software y Sistemas Computacionales</h2>
+        </div>
 
-    <ol>
-        <ol> Mi primer titulo </ol>
-        <ol> Mi segundo titulo </ol>
-        <ol> Mi tercer titulo </ol>
-        </ol>
-        
-        <ul>
-        <ul> Mi primer titulo </ul>
-        <ul> Mi segundo titulo </ul>
-        <ul> Mi tercer titulo </ul>
-        </ul>
-            
-        
+        <div class="main-content">
+            <div class="left-section">
+                <img src="Foto de Regina .jpg" alt="Foto de Lorena Regina" class="profile-img">
+                <div class="section-title">RESUMEN PROFESIONAL</div>
+                <p>Cuidadora experimentada con 8 años de experiencia en el cuidado de niños entre 3 y 11 años. Auxiliar de odontología con sólida formación en conocimientos sanitarios. Habilidades destacadas en atención al cliente, trabajo bajo presión y asistencia en procedimientos dentales. Capacidad demostrada para crear un ambiente seguro y estimulante para niños, así como para brindar apoyo eficiente en entornos clínicos.</p>
 
-    <!--Este comentario no se ve
-    ul, ol, li-->
+                <div class="section-title">APTITUDES:</div>
+                <ul>
+                    <li>Responsabilidad</li>
+                    <li>Atención al cliente</li>
+                    <li>Toma de decisiones</li>
+                    <li>Dirección de equipos</li>
+                </ul>
 
+                <div class="section-title">CONTACTO:</div>
+                <p><strong>Teléfono:</strong> 442-773-0140</p>
+                <p><strong>Email:</strong> reginagarciafelix4@gmail.com</p>
+                <p><strong>Ubicación:</strong> Querétaro City 76146</p>
+            </div>
+
+            <div class="right-section">
+                <div class="section-title">Experiencia laboral</div>
+                <h3>Niñera, Familia Diote | Querétaro (Marzo 2021 - Actual)</h3>
+                <ul>
+                    <li>Preparación de comidas apropiadas para la edad de los niños.</li>
+                    <li>Supervisión de actividades de entretenimiento.</li>
+                    <li>Establecimiento de relaciones de confianza con los niños.</li>
+                    <li>Realización de actividades y juegos de interés.</li>
+                    <li>Asistencia en la realización de deberes escolares.</li>
+                </ul>
+
+                <h3>Auxiliar de Odontología, Arboledas (Marzo 2020 - Septiembre 2021)</h3>
+                <ul>
+                    <li>Preparación de materiales e instrumental para tratamientos.</li>
+                    <li>Gestión de pedidos y materiales necesarios.</li>
+                    <li>Limpieza y desinfección de equipos e instalaciones.</li>
+                    <li>Asistencia al odontólogo durante consultas e intervenciones.</li>
+                    <li>Programación de citas y atención al paciente.</li>
+                    <li>Tareas de recepción y cobros.</li>
+                </ul>
+
+                <h3>Secretaria General, Gasolinera (Agosto 2021 - Octubre 2021)</h3>
+                <ul>
+                    <li>Autorización y ordenación de pagos y gastos.</li>
+                    <li>Participación en reuniones directivas para toma de decisiones.</li>
+                </ul>
+
+                <div class="section-title">Formación</div>
+                <p><strong>Ingeniería en Software y Sistemas Computacionales</strong> (2023 - 2025)</p>
+
+                <div class="section-title">Diplomados</div>
+                <p>Diplomado en Fotografía, Instituto de Fotografía de México</p>
+                <p>Técnico en Big Data, Fundación Carlos Slim</p>
+
+                <div class="section-title">Idiomas</div>
+                <p><strong>Español:</strong> Nativo</p>
+                <p><strong>Inglés:</strong> Nivel básico</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
 
 
